@@ -1,0 +1,163 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: "Arial", san-serif;
+  background-color: black;
+}
+
+.kontejner {
+  max-width: 1100px;
+  height: 100vh;
+    margin: 0 auto;
+    position: relative;
+}
+
+header {
+  background-color: #f44242;
+  padding: 15px;
+}
+
+.prva {
+  float: right;
+  margin-right: 60px;
+  margin-top: 50px;
+}
+
+.prva img {
+  float: right;
+  display: block;
+  width: 50px;
+  height: 50px;
+  position: fixed;
+}
+
+.prva a img {
+  float: right;
+  display: block;
+  width: 50px;
+  height: 50px;
+  position: fixed;
+   margin-top: 60px;
+}
+
+h2 {
+  display: block;
+  color: white;
+}
+
+.slike {
+  width: 60%;
+}
+
+img.slika1 {
+  margin: 50px;
+  width: 100%;
+  
+}
+
+img.slika2 {
+  margin: 50px;
+  width: 100%;
+  
+}
+
+img.slika3 {
+  margin: 50px;
+  width: 100%;
+  
+}
+
+img.slika4 {
+  margin: 50px;
+  width: 100%;
+ 
+}
+
+img.slika5 {
+  margin: 50px;
+  width: 100%;
+  
+}
+
+img.slika6 {
+  margin: 50px;
+  width: 100%;
+  
+}
+
+footer {
+  background-color: #f44242;
+  padding: 20px;
+}
+
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+textarea {
+  height:200px;
+}
+
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+
+input[type=submit] {
+    background-color: black;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+}
+
+input[type=submit]:hover {
+    background-color: #ce3333;
+}
+
+.col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+}
+
+.col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
+}
+
+@media only screen and (max-width:375px) {
+  .prva {
+    float: none;
+    margin-bottom: 90px;
+    margin-left: 30px;
+  }
+  .prva h2 {
+    margin-left: 30px;
+  }
+  .prva img {
+     float: left;
+     margin-left: 30px;
+     margin-bottom: 30px;
+  }
+}

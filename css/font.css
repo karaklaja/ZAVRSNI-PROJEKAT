@@ -1,0 +1,83 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: "Arial", san-serif;
+  background-color: #81dbbe;
+}
+
+.kontejner {
+  max-width: 1100px;
+  height: 100vh;
+  margin: 0 auto;
+  position: relative;
+}
+
+header {
+  background-color: #23d19a;
+  padding: 15px;
+}
+
+.prva {
+  float: right;
+  margin-right: 60px;
+  margin-top: 50px;
+}
+
+.prva img {
+  float: right;
+  display: block;
+  width: 50px;
+  height: 50px;
+  position: fixed;
+}
+
+.prva a img {
+  float: right;
+  display: block;
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  margin-top: 60px;
+}
+
+h2 {
+  display: block;
+  color: white;
+}
+
+.slike {
+  width: 60%;
+}
+
+img.slika1 {
+  margin: 50px;
+  width: 100%;
+  
+}
+
+img.slika2 {
+  margin: 50px;
+  width: 100%;
+  
+}
+
+img.slika3 {
+  margin: 50px;
+  width: 100%;
+  
+}
+
+footer {
+  background-color: #557a6e;
+  height: 100px;
+}
+
+@media only screen and (max-width:500px) {
+  .prva {
+    margin-top: 0;
+    margin-right: 0;
+    float: left;
+    margin-bottom: 80px;
+    margin-left: 50px;
+  }
+}
