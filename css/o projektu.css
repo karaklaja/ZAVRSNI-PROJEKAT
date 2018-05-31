@@ -43,4 +43,17 @@ header {
 footer {
   background-color: #8eaa57;
   height: 100px;
+  padding: 20px;
+}
+
+footer img.insta {
+  width: 30px;
+  height: 30px;
+}
+
+footer img {
+  float: left;
+  width: 20px;
+  height: 30px;
+  margin-left: 10px;
 }

@@ -20,7 +20,7 @@ header {
 .prva {
   float: right;
   margin-right: 60px;
-  margin-top: 50px;
+  margin-top: 0px;
 }
 
 .prva img {
@@ -45,44 +45,46 @@ h2 {
   color: white;
 }
 
-.slike {
-  width: 60%;
+.content img.slike {
+  width: 100%;
 }
 
-img.slika1 {
-  margin: 50px;
-  width: 100%;
-  
+.galerija {
+    margin: 8px;
 }
 
-img.slika2 {
-  margin: 50px;
-  width: 100%;
-  
+.galerija .column {
+    padding: 8px;
 }
 
-img.slika3 {
-  margin: 50px;
-  width: 100%;
-  
+.column {
+    float: left;
+    width: 40%;
 }
 
-img.slika4 {
-  margin: 50px;
-  width: 100%;
- 
+.galerija:after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
-img.slika5 {
-  margin: 50px;
-  width: 100%;
-  
+.content {
+    background-color: white;
+    padding: 10px;
 }
 
-img.slika6 {
-  margin: 50px;
-  width: 100%;
-  
+
+@media screen and (max-width: 639px) {
+    .column {
+        width: 50%;
+    }
+}
+
+
+@media screen and (max-width: 375px) {
+    .column {
+        width: 100%;
+    }
 }
 
 footer {

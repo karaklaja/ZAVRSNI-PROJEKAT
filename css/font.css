@@ -68,8 +68,21 @@ img.slika3 {
 }
 
 footer {
-  background-color: #557a6e;
+  background-color: #23d19a;
   height: 100px;
+  padding: 20px;
+}
+
+footer img.insta {
+  width: 30px;
+  height: 30px;
+}
+
+footer img {
+  float: left;
+  width: 20px;
+  height: 30px;
+  margin-left: 10px;
 }
 
 @media only screen and (max-width:500px) {
